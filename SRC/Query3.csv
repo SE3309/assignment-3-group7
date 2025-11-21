@@ -1,0 +1,151 @@
+mealPlanId,recipeId,recipeName
+1,1,"Sidi Ali"
+1,2,perly
+1,3,Lait
+2,4,"Fromage blanc nature"
+2,5,"uht jaouda 1L"
+2,6,Jben
+3,7,"Marmite Yeast Extract"
+3,8,Jaouda
+3,9,"Lait Frais"
+4,10,lilia
+4,11,"Prince Goût Chocolat"
+4,12,"Excellence Noir Prodigieux 90% Cacao"
+5,13,Nutella
+5,14,"Orange juice"
+5,15,Tonik
+6,16,"levure pâtisserie"
+6,17,Sésame
+6,18,"Confiture de fraise"
+7,19,"Yaourt nature"
+7,20,"Mayonnaise recette originale"
+7,21,"Sourdough White Ciabattin Bread"
+8,22,"ORIGINAL TASTE"
+8,23,"Chocolat noir - 85% cacao"
+8,24,"Proper Sourdough"
+9,25,"Sourdough Grains & Seeds"
+9,26,Cheddar
+9,27,Mandeln
+10,28,"Ketchup star 310 g"
+10,29,"Cosumar Sucre En Lingot Pour Le Thé 1 kg"
+10,30,Cashewkerne
+11,31,Henry’s
+11,32,Assil
+11,33,Salim
+12,34,Coca-Cola
+12,35,Cremy
+12,36,Maruja
+13,37,"Cream cheese"
+13,38,"Spreadable Slightly Salted"
+13,39,"Organic 70% Dark Chocolate Bar"
+14,40,jibal
+14,41,"KING COOKIES"
+14,42,"Nescafé Classic"
+15,43,"Jamila رايبي"
+15,44,"Aquafina 50cl"
+15,45,"sauce tomate cuisinée"
+16,46,"Sable coco Henry s 42g"
+16,47,"Geröstete Mandel Ohne Zucker"
+16,48,"Notenmix Mélange de Noix ongebrand - non grillé"
+17,49,"Oat Drink Barista Edition"
+17,50,"Lait U.H.T entier"
+17,51,"margarine la prairie 225g"
+18,52,"Walnusskerne naturbelassen"
+18,53,"Biscuits croquants au coeur onctueux de Nutella®"
+18,54,"Tartine croustillante Authentique"
+19,55,"Excellence Noir Intense 70% Cacao"
+19,56,"Familia 200g"
+19,57,"Star vinaigre de table BLANC"
+20,58,Gervais
+20,59,Nocciolata
+20,60,"Pâte à tartiner noisettes et cacao"
+21,61,Weetabix
+21,62,"Lightly sea salted crisps"
+21,63,"Dark chocolate"
+22,64,"Filets de maquereau"
+22,65,"Excellence Noir Puissant 85% Cacao"
+22,66,"Tartine Doux"
+23,67,611251753912
+23,68,10dh
+23,69,"Fourrés Chocolat Noir"
+24,70,"Confiture De Fraises 430 G"
+24,71,"Extra dark 74% Cocoa"
+24,72,Star
+25,73,"Pur beurre de cacahuète"
+25,74,"Hawai Tropical"
+25,75,"Lait Entier UHT"
+26,76,"Organic Lightly Salted Wholegrain Low Fat Rice Cakes"
+26,77,"Skyr nature 0%"
+26,78,Mayonnaise
+27,79,"Pain de mie grandes tranches Seigle & Graines 500g"
+27,80,lio
+27,81,"Jasons Sourdough"
+28,82,"Nocciolata bio"
+28,83,FIBRES
+28,84,"Krisprolls complets sans sucres ajoutés"
+29,85,"14 Maxi Tranches complet sans sucres ajoutés"
+29,86,"Confiture d'abricot"
+29,87,"PESTO alla GENOVESE"
+30,88,"cruesly mélange de noix"
+30,89,"Momo black"
+30,90,poulain
+31,91,"Tomato Ketchup"
+31,92,"Hafer Milch"
+31,93,"Tuc Original"
+32,94,"سكر الفانيلين"
+32,95,Merendino
+32,96,"DANONE ASSIL BANANE"
+33,97,"مارغرين المائدة"
+33,98,"1848 Chocolat en poudre"
+33,99,"El Baraka Confiture D'abricots 430 G"
+34,100,Jebli
+34,101,"70% chocolate"
+34,102,"Primevère bio doux tartine & cuisson"
+35,103,"Vegan Bouillon powder"
+35,104,"raibi jaoda"
+35,105,"Eyoo cover"
+36,106,"Tendre nature"
+36,107,"NATURAL YOGURT"
+36,108,"Yaourt Grec Muesli"
+37,109,"Dark Rye Crispbread"
+37,110,"Tartines craquantes au sarrasin imp"
+37,111,Danino
+38,112,Pipas
+38,113,"Be Nuts ! - Pâte à tartiner Cacahuète"
+38,114,"Pomme 🍏 🍎 Noisette🥜"
+39,115,"Le Beurre Tendre Doux"
+39,116,"Family Pack"
+39,117,"LBEN CARTON PASTEURISER"
+40,118,Haferflocken
+40,119,"Organic Vegetable Stock Cubes"
+40,120,"Le bon lait"
+41,121,"4 Garlic & Herb Kebabs"
+41,122,Trios
+41,123,"Excellence 85% Cacao Rich Dark"
+42,124,"Le Lait demi écrémé"
+42,125,"Dark Chocolate 70%"
+42,126,"Flocons d'avoine"
+43,127,"Tofoo Naked"
+43,128,"Lait Frais 15 jours"
+43,129,"Carré Frais"
+44,130,"La prairie classique"
+44,131,"Pringles Original"
+44,132,"Crunchy oats&honey"
+45,133,"Ghilal Yaourt zr3"
+45,134,"Figue & son"
+45,135,"Levure de bière"
+46,136,"Croustillant Chocolat"
+46,137,"Wholegrain Rye Bread"
+46,138,"Pain De Mie Bio"
+47,139,"Bitter Extra Kraftig"
+47,140,"Seed Sensations"
+47,141,"Sardines Huile d'Olive Vierge Extra"
+48,142,"Huile de table équilibrée riche en vitamines A,E,D3"
+48,143,"Nestlé Dessert"
+48,144,"Petit beurre"
+49,145,"Pains au lait x10"
+49,146,"Chocolat au lait"
+49,147,"Moutarde 10.50 g"
+50,148,"Bakery Co. 5 The Original Bagels"
+50,149,"Kefir Natural Fermented Yogurt"
+50,150,"RICORE Original"
