@@ -13,6 +13,7 @@ CREATE TABLE site_user (
   UNIQUE (email),
   CHECK (email IS NULL OR email LIKE '%@%')
 );
+DESCRIBE site_user;
 
 CREATE TABLE ingredients (
   ingredientName VARCHAR(100) NOT NULL,
@@ -25,6 +26,7 @@ CREATE TABLE ingredients (
   fats INT NOT NULL,
   PRIMARY KEY (ingredientName)
 );
+DESCRIBE ingredients;
 
 CREATE TABLE mealplan (
   mealPlanId INT NOT NULL,
@@ -35,6 +37,7 @@ CREATE TABLE mealplan (
   PRIMARY KEY (mealPlanId, mealPlanUserId),
   FOREIGN KEY (mealPlanUserId) REFERENCES 3309assignment3.site_user(userId)
 );
+DESCRIBE mealplan;
 
 CREATE TABLE recipe (
   recipeId INT NOT NULL,
@@ -44,6 +47,7 @@ CREATE TABLE recipe (
   recipecol1 VARCHAR(100),
   PRIMARY KEY (recipeId)
 );
+DESCRIBE recipe;
 
 CREATE TABLE dietary_restrictions (
   userId INT NOT NULL,
@@ -51,6 +55,7 @@ CREATE TABLE dietary_restrictions (
   PRIMARY KEY (userId, dietaryLabel),
   FOREIGN KEY (userId) REFERENCES 3309assignment3.site_user(userId)
 );
+DESCRIBE dietary_restrictions;
 
 CREATE TABLE ingredient_substitute (
   mealPlanId INT NOT NULL,
@@ -62,9 +67,7 @@ CREATE TABLE ingredient_substitute (
   FOREIGN KEY (originalIngredient) REFERENCES 3309assignment3.ingredients(ingredientName),
   FOREIGN KEY (substituteIngredient) REFERENCES 3309assignment3.ingredients(ingredientName)
 );
-
-
-
+DESCRIBE ingredient_substitute;
 
 
 CREATE TABLE mealplan_recipies (
@@ -74,6 +77,7 @@ CREATE TABLE mealplan_recipies (
   FOREIGN KEY (mealPlanId) REFERENCES 3309assignment3.mealplan(mealPlanId),
   FOREIGN KEY (recipeId) REFERENCES 3309assignment3.recipe(recipeId)
 );
+DESCRIBE mealplan_recipies;
 
 CREATE TABLE mealplan_shopping_list_items (
   mealPlanId INT NOT NULL,
@@ -82,6 +86,7 @@ CREATE TABLE mealplan_shopping_list_items (
   PRIMARY KEY (mealPlanId, ingredientName),
   FOREIGN KEY (mealPlanId) REFERENCES 3309assignment3.mealplan(mealPlanId)
 );
+DESCRIBE mealplan_shopping_list_items;
 
 CREATE TABLE pantry_items (
   pantryUsersId INT NOT NULL,
@@ -92,7 +97,7 @@ CREATE TABLE pantry_items (
   FOREIGN KEY (pantryItemName) REFERENCES 3309assignment3.ingredients(ingredientName),
   FOREIGN KEY (pantryUsersId) REFERENCES 3309assignment3.site_user(userId)
 );
-
+DESCRIBE pantry_items;
 
 
 CREATE TABLE recipe_ingredients (
@@ -103,6 +108,7 @@ CREATE TABLE recipe_ingredients (
   FOREIGN KEY (ingredientName) REFERENCES 3309assignment3.ingredients(ingredientName),
   FOREIGN KEY (recipeId) REFERENCES 3309assignment3.recipe(recipeId)
 );
+DESCRIBE recipe_ingredients;
 
 CREATE TABLE recipe_tags (
   taggedRecipeId INT NOT NULL,
@@ -110,6 +116,7 @@ CREATE TABLE recipe_tags (
   PRIMARY KEY (taggedRecipeId),
   FOREIGN KEY (taggedRecipeId) REFERENCES 3309assignment3.recipe(recipeId)
 );
+DESCRIBE recipe_tags;
 
 
 
@@ -119,5 +126,6 @@ CREATE TABLE user_allergies (
   PRIMARY KEY (userId, allergy),
   CONSTRAINT allergies_userId FOREIGN KEY (userId) REFERENCES site_user(userId)
 );
+DESCRIBE user_allergies;
 
 
